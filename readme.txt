@@ -1,6 +1,20 @@
+Get menu items:
 http://127.0.0.1:8000/restaurant/menu-items/
-http://127.0.0.1:8000/restaurant/booking/
+Method: GET
 
+VIew and Post Booking data:
+http://127.0.0.1:8000/restaurant/booking/tables
+Method: POST, GET
 
-create user, make post request, provive username and password as form-data: http://127.0.0.1:8000/auth/users/
+Create User:
+: http://127.0.0.1:8000/auth/users/
+Payload: username, password
+Method: POST
 
+Generate Token:
+POST: http://localhost:8000/auth/token/login/
+Payload: username, password
+Method: POST
+
+Static HTML page:
+http://localhost:8000/restaurant/
